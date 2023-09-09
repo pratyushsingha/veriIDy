@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "idVarifierAndroid",
-    "slug": "idVarifierAndroid",
+    "name": "veriIDy",
+    "slug": "veriIDy",
+    "description": "a pocket utility to verify your adhaar(ID)",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/white-transparent-logo.png",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0e1828"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +20,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#0e1828"
+      },
+      "package": "com.pratyushsingha.veriIDy"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f870faf-78f5-4939-b5f4-19c7a52f0b2a"
+      }
     }
   }
 }
